@@ -6,8 +6,31 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 11:40:26 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/07/01 11:40:29 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/07/01 19:05:39 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "HumanA.hpp"
+#include "HumanB.hpp"
 
+int main(void)
+{
+    {
+        Weapon club = Weapon("crude spiked club");
+
+        HumanA bob("Bob", club);
+        bob.attack();
+        club.setType("some other type of club");
+        bob.attack();
+    }
+    {
+        Weapon club = Weapon("crude spiked club");
+
+        HumanB jim("Jim");
+        jim.setWeapon(club);
+        jim.attack();
+        club.setType("some other type of club");
+        jim.attack();
+    }
+    return (0);
+}
