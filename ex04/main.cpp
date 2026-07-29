@@ -6,7 +6,7 @@
 /*   By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 23:18:30 by jhvalenc          #+#    #+#             */
-/*   Updated: 2026/07/02 12:05:08 by jhvalenc         ###   ########.fr       */
+/*   Updated: 2026/07/03 10:46:28 by jhvalenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
  * open() espera un "const char *", por lo tanto, convierto el objeto file_replace
  * en un "const char *"
 */
-#include "replace.hpp"
+#include "Replace.hpp"
 
 int main(int argc, char **argv)
 {

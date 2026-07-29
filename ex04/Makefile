@@ -6,7 +6,7 @@
 #    By: jhvalenc <jhvalenc@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/02 11:09:03 by jhvalenc          #+#    #+#              #
-#    Updated: 2026/07/02 11:10:52 by jhvalenc         ###   ########.fr        #
+#    Updated: 2026/07/03 10:45:55 by jhvalenc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME        = sed
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
-SRCS        = replace.cpp \
+SRCS        = Replace.cpp \
 	      main.cpp
 
 OBJS        = $(SRCS:.cpp=.o)
